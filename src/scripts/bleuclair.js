@@ -85,6 +85,18 @@ $(function(){
       return false;
     });
     applyState();
+
+    // サイドバーが左側
+    if (main.css('flex-direction') !== 'row-reverse'){
+      // サイドバー開閉ボタンを左側に
+      const btnToLeft = {
+        float: 'left',
+        marginLeft: '0px',
+        left: '-10px',
+        transform: 'scaleX(-1)'
+      };
+      $('#sidebar-switch-panel').css(btnToLeft);
+    }
   };
   $.fn.collapsibleSidebar = function() {
     main = this;
