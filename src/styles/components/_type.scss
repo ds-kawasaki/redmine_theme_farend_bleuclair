@@ -11,4 +11,24 @@ h1, h2, h3, h4 {
   h1, h2, h3, h4 {
     font-weight: bold;
   }
+
+  h1 {
+    background-color: lightsteelblue;
+    box-shadow: 6px 6px 0 midnightblue;
+    border-left: solid 14px dodgerblue;
+    padding: 0.6em;
+    padding-left: 1em;
+  }
+  h2 {
+    background-color: lightsteelblue;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    border-left: solid 8px dodgerblue;
+    padding: 0.3em;
+    padding-left: 0.6em;
+  }
+  h3 {
+    background: linear-gradient(transparent 40%, lightsteelblue 40%);
+    border-left: solid 2px dodgerblue;
+    padding-left: 0.3em;
+  }
 }
